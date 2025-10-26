@@ -13,8 +13,8 @@ This project investigates whether population-level polygenic scores (PGS) correl
 This repository contains a complete pipeline for computing and analyzing population-level PGS from GWAS summary statistics and 1000 Genomes genotype data.  
 All scripts are written for **PLINK 1.9** and **LDSC**, designed to run on HPC systems (e.g., TACC).
 
-| No. | Script | Description |
-|-----|---------|-------------|
+| No. | Script |
+|-----|---------|
 | **01_convert_vcf_to_prsice.sh** | Convert GWAS-VCF files from OpenGWAS into PRSice-compatible base files using PLINK 1.9. |
 | **02_ldsc_heritability_qc.sh** | Perform heritability QC (*h²ₛₙₚ > 0.05*) for base GWAS data using LDSC on PLINK 1.9-formatted files. |
 | **03_deduplicate_snps.sh** | Remove duplicate SNP entries and keep variants with the most significant (lowest) *P*-value. |
