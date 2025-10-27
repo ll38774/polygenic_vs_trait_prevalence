@@ -4,7 +4,7 @@ Assessing whether polygenic risk predictions across human populations align with
 
 ---
 
-## 📄 Abstract
+## 💡 Abstract
 This project investigates whether population-level polygenic scores (PGS) correlate with the observed prevalence of complex diseases and quantitative traits across diverse human populations, using within-family GWAS and 1000 Genomes reference data.
 
 ---
@@ -51,7 +51,7 @@ All scripts are written for **PLINK 1.9** and **LDSC**, designed to run on HPC s
 
 ---
 
-## Results Overview
+## 📊 Results Overview
 
 This directory contains all population-level polygenic score (PGS) results and downstream analysis outputs generated from the `polygenic_vs_trait_prevalence` project.
 
